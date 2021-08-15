@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Intel:8088_Max_Mode U?
+U 1 1 611F5529
+P 5100 3700
+F 0 "U?" H 5100 5681 50  0000 C CNN
+F 1 "8088_Max_Mode" H 5100 5590 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 5150 3800 50  0001 C CIN
+F 3 "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf" H 5100 3750 50  0001 C CNN
+	1    5100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611F6E91
+P 5700 5600
+F 0 "#PWR?" H 5700 5350 50  0001 C CNN
+F 1 "GND" H 5705 5427 50  0000 C CNN
+F 2 "" H 5700 5600 50  0001 C CNN
+F 3 "" H 5700 5600 50  0001 C CNN
+	1    5700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611F737E
+P 5500 5600
+F 0 "#PWR?" H 5500 5350 50  0001 C CNN
+F 1 "GND" H 5505 5427 50  0000 C CNN
+F 2 "" H 5500 5600 50  0001 C CNN
+F 3 "" H 5500 5600 50  0001 C CNN
+	1    5500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 611F85BF
+P 5100 1900
+F 0 "#PWR?" H 5100 1750 50  0001 C CNN
+F 1 "+5V" H 5115 2073 50  0000 C CNN
+F 2 "" H 5100 1900 50  0001 C CNN
+F 3 "" H 5100 1900 50  0001 C CNN
+	1    5100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT574 U?
+U 1 1 61200111
+P 7350 1850
+F 0 "U?" H 7350 2831 50  0000 C CNN
+F 1 "74HCT574" H 7350 2740 50  0000 C CNN
+F 2 "" H 7350 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 7350 1850 50  0001 C CNN
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT574 U?
+U 1 1 61205B8B
+P 7350 3600
+F 0 "U?" H 7350 4581 50  0000 C CNN
+F 1 "74HCT574" H 7350 4490 50  0000 C CNN
+F 2 "" H 7350 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 7350 3600 50  0001 C CNN
+	1    7350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT574 U?
+U 1 1 61206E87
+P 7350 5400
+F 0 "U?" H 7350 6381 50  0000 C CNN
+F 1 "74HCT574" H 7350 6290 50  0000 C CNN
+F 2 "" H 7350 5400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HCT574" H 7350 5400 50  0001 C CNN
+	1    7350 5400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
