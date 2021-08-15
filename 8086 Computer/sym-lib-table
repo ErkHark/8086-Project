@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 8086-Computer-rescue)(type Legacy)(uri "${KIPRJMOD}/8086 Computer-rescue.lib")(options "")(descr ""))
+)
